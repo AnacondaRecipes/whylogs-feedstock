@@ -13,13 +13,14 @@ source:
 build:
   number: 0
   skip: true  # [py<37]
-  script: python -m pip install --no-deps --ignore-installed --no-build-isolation .
+  script: {{ PYTHON }}  -m pip install --no-deps --ignore-installed --no-build-isolation .
 
 requirements:
   host:
     - python
     - pip
     - wheel
+    - setuptools
     - poetry
   run:
     - python
