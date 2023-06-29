@@ -63,7 +63,7 @@ about:
   home: https://whylabs.ai
   license: Apache-2.0
   license_family: Apache
-  license_file: LICENSE
+  license_url: https://github.com/whylabs/whylogs/blob/mainline/LICENSE
   summary: Profile and monitor your ML data pipeline end-to-end
   description: |
     whylogs is an open source library for logging any kind of data. 
