@@ -21,7 +21,7 @@ requirements:
     - pip
     - wheel
     - setuptools
-    - poetry
+    - poetry-core
   run:
     - python
     - whylogs-sketching >=3.4.1.dev3
